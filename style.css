@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 
+
 :root{
     --green:#27ae60;
     --black:#192a56;
@@ -52,14 +53,14 @@ section:nth-child(even){
     display: inline-block;
     font-size: 1.7rem;
     color:#fff;
-    background: var(--black);
+    background: #472183;
     border-radius: .5rem;
     cursor: pointer;
     padding:.8rem 3rem;
 }
 
 .btn:hover{
-    background: var(--green);
+    background:#379237;
     letter-spacing: .1rem;
 }
 
@@ -95,13 +96,13 @@ header .navbar a{
 header .navbar a.active,
 header .navbar a:hover{
     color:#fff;
-    background: var(--green);
+    background: #395144;
 }
 
 header .icons i,
 header .icons a{
     cursor: pointer;
-    margin-left: .5rem;
+    margin-left: 2rem;
     height:4.5rem;
     line-height: 4.5rem;
     width:4.5rem;
@@ -116,7 +117,6 @@ header .icons i:hover,
 header .icons a:hover{
     color:#fff;
     background: var(--green);
-    transform: rotate(360deg);
 }
 
 header .icons #menu-bars{
@@ -525,7 +525,7 @@ header .icons #menu-bars{
 }
 
 .order form .inputBox .input textarea{
-    height:20rem;
+    height:10rem;
     resize: none;
 }
 
@@ -533,10 +533,15 @@ header .icons #menu-bars{
     margin-top: 0;
 }
 
+.footer{
+    background: #FFF8EA;
+}
+
 .footer .box-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    gap:1.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
 }
 
 .footer .box-container .box h3{
