@@ -181,10 +181,12 @@ header .icons #menu-bars{
     flex-wrap: wrap;
     gap:2rem; 
     padding-top: 9rem;
+   
 }
 
 .home .home-slider .slide .content{
-    flex:1 1 45rem;
+
+    flex: 1 1 45rem;
 }
 
 .home .home-slider .slide .image{
@@ -197,12 +199,12 @@ header .icons #menu-bars{
 
 .home .home-slider .slide .content span{
     color:var(--green);
-    font-size: 2.5rem;
+    font-size: 3.5rem;
 }
 
 .home .home-slider .slide .content h3{
     color:var(--black);
-    font-size: 7rem;
+    font-size: 6rem;
 }
 
 .home .home-slider .slide .content p{
@@ -217,6 +219,7 @@ header .icons #menu-bars{
 }
 
 .dishes .box-container{
+    
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
     gap:1.5rem;
